@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.germania-one-regular {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    margin: auto;
+    font-size: 7vw;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+header > p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+     color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+section.normal{
+    background-color: white;
+    font-family: "Comic Relief", system-ui;
+    font-size: 3vw;
+}
+section > p{
+    line-height: 2.5;
+    padding-top: 10vh;
+    padding-left: 40px;
+    padding-bottom: 10vh;
+}
+
+section.imagem > p{
+    text-align: left;
+    margin: 40px;
+    background-color: rgba(0, 0, 0, 0.308);
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    font-size: 3vw;
+    color: white;
+    font-family: "Comic Relief", system-ui;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+footer > p{
+    text-align: center;
+}
+section#imagem1{
+    background-image: url(background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#imagem2{
+    background-image: url(background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
