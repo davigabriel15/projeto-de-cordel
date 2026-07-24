@@ -7,12 +7,6 @@
   font-style: normal;
 }
 
-.germania-one-regular {
-  font-family: "Germania One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 *{
     margin: 0px;
@@ -58,9 +52,9 @@ section.normal{
 }
 section > p{
     line-height: 2.5;
-    padding-top: 10vh;
+    padding-top: 5vhvh;
     padding-left: 40px;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 section.imagem > p{
