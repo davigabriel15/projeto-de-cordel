@@ -7,6 +7,12 @@
   font-style: normal;
 }
 
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 *{
     margin: 0px;
@@ -24,11 +30,11 @@ header{
     text-align: center;
 }
 header > h1{
+    font-family: "Black Ops One", system-ui;
     margin: auto;
     font-size: 7vw;
     padding-top: 50px;
     text-transform: uppercase;
-    font-family: sans-serif;
 }
 header > p{
     padding-top: 30px;
