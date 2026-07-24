@@ -87,14 +87,16 @@ section#imagem1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     background-attachment: fixed;
+    width: 100vw;
+    height: 900px;
 }
 section#imagem2{
     background-image: url(imagens/background002.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100%;
     background-attachment: fixed;
+    width: 100vw;
+    height: 900px;    
 }
