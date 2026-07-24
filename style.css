@@ -83,7 +83,7 @@ section#imagem1{
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 900px;
+    height: 30%;
 }
 section#imagem2{
     background-image: url(imagens/background002.jpg);
@@ -92,5 +92,5 @@ section#imagem2{
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 900px;    
+    height: 30%;    
 }
