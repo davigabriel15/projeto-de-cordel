@@ -89,7 +89,6 @@ section#imagem1{
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
-    min-height: 100vh;
 }
 section#imagem2{
     background-image: url(imagens/background002.jpg);
@@ -98,5 +97,4 @@ section#imagem2{
     background-size: cover;
     min-width: 100%;
     background-attachment: fixed;
-    min-height: 100vh;
 }
